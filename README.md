@@ -7,8 +7,15 @@
  https://projects.ics.forth.gr/cvrl/fire/FIRE.7z
  ## PROPOSED METHOD:
 <img width="1037" alt="Screenshot 2024-04-15 at 11 50 22 PM" src="https://github.com/amudalaramyasri/Capstone-project-on-A-Learning-Framework-for-Deformable-Medical-Image-Registration/assets/60390236/29c47d51-d260-422a-a56f-bd6e8b17977e">
+
+
+
+
+
 ## Voxel Morph
 The VoxelMorph class defines a neural network model for image registration tasks. It consists of a U-Net architecture followed by a spatial transformation module. The U-Net takes concatenated input images (moving and fixed) and predicts a deformation matrix representing the spatial transformation required to align them. The deformation matrix is then used by the spatial transformation module to register the moving image to the fixed image. Finally, the registered image and deformation matrix are returned as outputs. This architecture enables end-to-end learning of image registration, allowing the model to automatically align images without the need for explicit feature extraction or predefined transformation models.
+
+
 ## Unet architecture
 Contracting Blocks: These blocks perform feature extraction and downsampling, gradually reducing spatial dimensions while increasing the depth of feature maps.
 
