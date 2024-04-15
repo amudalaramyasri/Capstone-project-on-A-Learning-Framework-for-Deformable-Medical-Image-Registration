@@ -5,6 +5,8 @@
  FIRE is used as data set in my project . It consists of Fixed Image and Moving Image . We have taken  89 pairs as my train dataset and 45 image pairs as my validation dataset. 
  you download the data set from following link :
  https://projects.ics.forth.gr/cvrl/fire/FIRE.7z
+ ## PROPOSED METHOD:
+ https://github.com/amudalaramyasri/Capstone-project-on-A-Learning-Framework-for-Deformable-Medical-Image-Registration/issues/1
 ## Voxel Morph
 The VoxelMorph class defines a neural network model for image registration tasks. It consists of a U-Net architecture followed by a spatial transformation module. The U-Net takes concatenated input images (moving and fixed) and predicts a deformation matrix representing the spatial transformation required to align them. The deformation matrix is then used by the spatial transformation module to register the moving image to the fixed image. Finally, the registered image and deformation matrix are returned as outputs. This architecture enables end-to-end learning of image registration, allowing the model to automatically align images without the need for explicit feature extraction or predefined transformation models.
 ## Unet architecture
