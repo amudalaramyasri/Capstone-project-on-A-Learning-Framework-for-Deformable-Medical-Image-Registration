@@ -47,3 +47,5 @@ Batch size: 1
 Optimizer: Adam
 Loss function: Unsupervised Loss Function
 𝜆:regularization parameter - 0.01
+## YOU TUBE LINk :
+https://youtu.be/_aTDC-uqXLk
