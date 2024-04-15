@@ -1,9 +1,5 @@
 
 # Title: A Learning Framework for Deformable Medical Image Registration  
-
-
-
-
 ##  Data set
  Fundus Image Registration dataset (FIRE) : The dataset consists of 129 retinal images forming 134 image pairs. These image pairs are split into 3 different categories depending on their characteristics. The images were acquired with a Nidek AFC-210 fundus camera, which acquires images with a resolution of 2912x2912 pixels and a FOV of 45° both in the x and y dimensions. Images were acquired at the Papageorgiou Hospital, Aristotle University of Thessaloniki, Thessaloniki from 39 patients.
  FIRE is used as data set in my project . It consists of Fixed Image and Moving Image . We have taken  89 pairs as my train dataset and 45 image pairs as my validation dataset. 
